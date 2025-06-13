@@ -1,0 +1,12 @@
+{
+  "files.autoSave": "afterDelay", // 文件自动保存
+  "editor.formatOnSave": false, // 保存时格式化代码
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,        // json、js、ts等文件常见的还是2个空格
+  "prettier.embeddedLanguageFormatting": "off",
+  "prettier.enable": true
+}

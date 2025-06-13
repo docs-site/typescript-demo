@@ -1,0 +1,19 @@
+dist/
+
+# IDEs
+.idea/
+.vscode/
+
+# Project files
+
+# For development
+.gitignore
+.prettierignore
+.prettierrc
+node_modules/
+
+package.json
+package-lock.json
+
+tsconfig.json
+tsconfig.prod.json
