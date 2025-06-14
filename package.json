@@ -7,7 +7,9 @@
     "build": "tsc --project tsconfig.prod.json",
     "start": "node ./dist/index.js",
     "format:check": "prettier . --check",
-    "format:fix": "prettier . --write"
+    "format:fix": "prettier . --write",
+    "minify:build": "terser ./dist/index.js -o ./dist/output.min.js --config-file terser.config.json",
+    "minify:start": "node ./dist/output.min.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
   "description": "",
   "devDependencies": {
     "prettier": "^3.5.3",
+    "terser": "^5.42.0",
     "typescript": "^5.8.3"
   }
 }
