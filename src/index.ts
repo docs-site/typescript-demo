@@ -9,17 +9,17 @@
  */
 
 function testPrettier(input: number): string {
-    try {
-        if (input > 0) {
-            return 'Positive';
-        } else if (input < 0) {
-            throw new Error('Negative');
-        }
-        return 'Zero';
-    } catch (err) {
-        console.error(err);
-        return 'Error';
+  try {
+    if (input > 0) {
+      return 'Positive';
+    } else if (input < 0) {
+      throw new Error('Negative');
     }
+    return 'Zero';
+  } catch (err) {
+    console.error(err);
+    return 'Error';
+  }
 }
 
 const message: string = 'Hello, World!';
